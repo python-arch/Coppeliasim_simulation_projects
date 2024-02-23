@@ -15,5 +15,8 @@ This Python script uses the CoppeliaSim remote API to track a green object in a 
 3. Run the script and enter the simulation time in seconds when prompted.
 4. The script will track the green object in the vision sensor and save images with rectangles to the `output` directory.
 
+## Sample Output
+![project 1 Image](images/project1_output.png)
+
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
