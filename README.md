@@ -1,14 +1,15 @@
-# Track Green Object in V-REP/CoppeliaSim
+# Coppeliasim Simulations Integrations with python
 
+## Green Object Tracker Project
 This Python script uses the CoppeliaSim remote API to track a green object in a vision sensor and overlay a rectangle marker around it.
 
-## Requirements
+### Requirements
 - Python 3
 - OpenCV (`pip install opencv-python`)
 - numpy (`pip install numpy`)
 - CoppeliaSim
 
-## Usage
+### Usage
 1. Start CoppeliaSim and load your scene.
 2. Adjust the vision sensor handles (`v_0_handle` and `v_1_handle`) to match your scene.
 3. Run the script and enter the simulation time in seconds when prompted.
